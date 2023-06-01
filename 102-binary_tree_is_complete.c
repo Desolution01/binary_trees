@@ -112,7 +112,7 @@ int binary_tree_is_complete(const binary_tree_t *tree)
 			}
 			push(head->node->left, head, &tail);
 		}
-		elseOA
+		else
 			flag = 1;
 		if (head->node->right != NULL)
 		{
